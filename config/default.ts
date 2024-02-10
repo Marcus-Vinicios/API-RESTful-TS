@@ -5,5 +5,6 @@ const db = {
 
 export default {
   port: process.env.PORT,
-  dbUri: `mongodb+srv://${db.User}:${db.Password}@cluster0.4inof8i.mongodb.net/?retryWrites=true&w=majority`
+  dbUri: `mongodb+srv://${db.User}:${db.Password}@cluster0.4inof8i.mongodb.net/?retryWrites=true&w=majority`,
+  env: "development"
 };
