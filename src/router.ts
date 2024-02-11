@@ -9,6 +9,6 @@ export default router
   .get("/teste", (req: Request, res: Response) => {
     res.status(200).send("API funcionando!")
   })
-  .get("/list/movies", getMovies)
+  .get("/movies", getMovies)
   .post("/add/movie", createValidator(), validate, createMovie)
   .get("/movie/:id", getMovieById)
