@@ -1,6 +1,6 @@
 import { body } from "express-validator";
 
-export function createValidator() {
+export function movieValidator() {
   return [
     body("title")
       .isString()
